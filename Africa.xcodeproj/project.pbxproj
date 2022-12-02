@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5C64504C29391EF9005CF79F /* CodeBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C64504B29391EF9005CF79F /* CodeBundleExtension.swift */; };
+		5C64504E293A5F5E005CF79F /* AnimaListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C64504D293A5F5E005CF79F /* AnimaListItemView.swift */; };
 		5CE4671F2936893F005C64FD /* AfricaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE4671E2936893F005C64FD /* AfricaApp.swift */; };
 		5CE467212936893F005C64FD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE467202936893F005C64FD /* ContentView.swift */; };
 		5CE4672329368943005C64FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CE4672229368943005C64FD /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 
 /* Begin PBXFileReference section */
 		5C64504B29391EF9005CF79F /* CodeBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeBundleExtension.swift; sourceTree = "<group>"; };
+		5C64504D293A5F5E005CF79F /* AnimaListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimaListItemView.swift; sourceTree = "<group>"; };
 		5CE4671B2936893F005C64FD /* Africa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Africa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CE4671E2936893F005C64FD /* AfricaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfricaApp.swift; sourceTree = "<group>"; };
 		5CE467202936893F005C64FD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -168,6 +170,7 @@
 			isa = PBXGroup;
 			children = (
 				5CE467592936982A005C64FD /* CoverImageView.swift */,
+				5C64504D293A5F5E005CF79F /* AnimaListItemView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 				5CE4671F2936893F005C64FD /* AfricaApp.swift in Sources */,
 				5CE4675129368EFA005C64FD /* GaleryView.swift in Sources */,
 				5CE4674D29368EBC005C64FD /* VideoListView.swift in Sources */,
+				5C64504E293A5F5E005CF79F /* AnimaListItemView.swift in Sources */,
 				5CE4675A2936982A005C64FD /* CoverImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
