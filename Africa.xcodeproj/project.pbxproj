@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C4A00612967443A00A74910 /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4A00602967443A00A74910 /* VideoModel.swift */; };
+		5C4A00632967453C00A74910 /* VideoListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4A00622967453C00A74910 /* VideoListItem.swift */; };
 		5C4E0F832954D1AF001DABF8 /* AnimalDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4E0F822954D1AF001DABF8 /* AnimalDetailView.swift */; };
 		5C4E0F852954D76A001DABF8 /* HeadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4E0F842954D76A001DABF8 /* HeadingView.swift */; };
 		5C4E0F872954DF36001DABF8 /* InsetGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4E0F862954DF36001DABF8 /* InsetGalleryView.swift */; };
@@ -43,6 +45,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5C4A00602967443A00A74910 /* VideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
+		5C4A00622967453C00A74910 /* VideoListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListItem.swift; sourceTree = "<group>"; };
 		5C4E0F822954D1AF001DABF8 /* AnimalDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailView.swift; sourceTree = "<group>"; };
 		5C4E0F842954D76A001DABF8 /* HeadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadingView.swift; sourceTree = "<group>"; };
 		5C4E0F862954DF36001DABF8 /* InsetGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetGalleryView.swift; sourceTree = "<group>"; };
@@ -191,6 +195,7 @@
 				5C4E0F88295A068A001DABF8 /* InsetFactView.swift */,
 				5C4E0F8A295A0A0A001DABF8 /* InsetMapView.swift */,
 				5C4E0F8C295A13F3001DABF8 /* ExternalWeblinkView.swift */,
+				5C4A00622967453C00A74910 /* VideoListItem.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -200,6 +205,7 @@
 			children = (
 				5CE4675E29369C4C005C64FD /* CoverImageModel.swift */,
 				5C64504F29522856005CF79F /* AnimalModel.swift */,
+				5C4A00602967443A00A74910 /* VideoModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -301,8 +307,10 @@
 				5C4E0F8B295A0A0A001DABF8 /* InsetMapView.swift in Sources */,
 				5CE4675129368EFA005C64FD /* GaleryView.swift in Sources */,
 				5CE4674D29368EBC005C64FD /* VideoListView.swift in Sources */,
+				5C4A00612967443A00A74910 /* VideoModel.swift in Sources */,
 				5C64504E293A5F5E005CF79F /* AnimaListItemView.swift in Sources */,
 				5C4E0F872954DF36001DABF8 /* InsetGalleryView.swift in Sources */,
+				5C4A00632967453C00A74910 /* VideoListItem.swift in Sources */,
 				5CE4675A2936982A005C64FD /* CoverImageView.swift in Sources */,
 				5C4E0F852954D76A001DABF8 /* HeadingView.swift in Sources */,
 			);
