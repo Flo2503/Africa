@@ -14,7 +14,13 @@ struct VideoListView: View {
     
     //: MARK - BODY
     var body: some View {
-        Text("Video")
+        NavigationView {
+            List {
+                ForEach(videos) { item in
+                    VideoListItemView(video: item)
+                }
+            } //: LIST
+        } //: NAVIGATION
     }
 }
 
